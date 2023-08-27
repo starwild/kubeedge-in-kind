@@ -1,0 +1,7 @@
+apiVersion: v1
+appVersion: 1.9.5
+description: The KubeEdge cloudcore component.
+name: cloudcore
+sources:
+- https://github.com/kubeedge/kubeedge
+version: 0.0.1

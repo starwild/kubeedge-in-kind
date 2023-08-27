@@ -1,0 +1,10 @@
+apiVersion: v2
+appVersion: latest
+dependencies:
+- name: agent
+  repository: ""
+  version: latest
+description: A Helm chart for EdgeMesh
+name: edgemesh
+type: application
+version: 0.1.0
