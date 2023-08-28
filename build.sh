@@ -39,7 +39,7 @@ mv keadm-${KUBEEDGE_VERSION}-linux-amd64/keadm/keadm /usr/local/bin/
 
 # https://registry-1.docker.io/
 docker run -d --name proxy --restart=always --net=kind \
--e REGISTRY_PROXY_REMOTEURL=https://http://hub-mirror.c.163.com registry:2
+-e REGISTRY_PROXY_REMOTEURL=http://hub-mirror.c.163.com registry:2
 docker run -d --name registry --restart=always --net=kind \
 -p 5000:5000 registry:2
 
